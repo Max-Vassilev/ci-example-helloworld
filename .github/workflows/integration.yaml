@@ -1,7 +1,7 @@
 name: Integration
 
 on:
-  pull-request:
+  pull_request:
     branches:
       - main
 
@@ -16,7 +16,7 @@ jobs:
 
       - name: Build app
         run: npm run build
-        
+
   unit-tests:
     runs-on: ubuntu:latest
     steps: 
